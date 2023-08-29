@@ -1,4 +1,4 @@
-import { banana, imgs1, imgs2, imgs3, imgs4, imgs5 } from "../assets/images";
+import { imgs1, imgs2, imgs3, imgs4, imgs5, jollof } from "../assets/images";
 import { Instructions } from "./Instructions";
 import { Nutrition } from "./Nutrition";
 export const FavoriteRecipe = () => {
@@ -9,8 +9,8 @@ export const FavoriteRecipe = () => {
         <div className="flex justify-between gap-[80px] max-sm:flex-col-reverse max-md:flex-col-reverse max-lg:flex-col-reverse max-xl:flex-col-reverse">
           <div className="flex-1">
             <img
-              src={banana}
-              alt="banana"
+              src={jollof}
+              alt="jollof"
               className="max-2xl:w-[70%] max-2xl:m-auto rounded-2xl h-[700px] max-sm:h-[400px] w-full max-w-full max-lg:w-[50%] max-lg:m-auto max-md:w-[90%] max-md:m-auto bg-cover "
             />
             <div className="my-[20px] sticky top-5 max-2xl:w-[70%] max-2xl:m-auto">
