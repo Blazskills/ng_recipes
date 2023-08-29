@@ -1,5 +1,5 @@
 // import banana from "./banana.png";
-import banana from "./jollof2.jpg";
+import banana from "./jollof_2.jpg";
 import beans from "./beanss.png";
 import imgs1 from "./image_1.png";
 import imgs2 from "./image_2.png";
