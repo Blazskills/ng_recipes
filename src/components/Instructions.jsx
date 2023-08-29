@@ -70,10 +70,7 @@ export const Instructions = () => {
             Season with thyme, curry powder, bouillon cubes, salt, and pepper to
             taste. Cook for another 2 to 5 minutes.Season with thyme, curry
             powder, bouillon cubes, salt, and pepper to taste. Cook for another
-            2 to 5 minutes.Season with thyme, curry powder, bouillon cubes,
-            salt, and pepper to taste. Cook for another 2 to 5 minutes.Season
-            with thyme, curry powder, bouillon cubes, salt, and pepper to taste.
-            Cook for another 2 to 5 minutes.
+            2 to 5 minutes.
           </p>
         </div>
       </div>
