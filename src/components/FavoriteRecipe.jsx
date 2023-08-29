@@ -124,10 +124,10 @@ export const FavoriteRecipe = () => {
           </div>
           <div className="flex-1 flex flex-col mx-6">
             <p className="text-[68px] font-[600] leading-[75.3419px] font-montserrat">
-              Spicy Sundried tomato on toast
+            Nigerian Jollof Rice
             </p>
             <p className="text-[18px] my-[30px] leading-[26.9665px] px-[20px] py-[9px] border-2 border-primary rounded-full  w-fit font-montserrat ">
-              Vegan
+              Jollof
             </p>
 
             <div className="flex  gap-[50px] mb-[60px]">
