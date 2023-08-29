@@ -13,7 +13,7 @@ export const FavoriteRecipe = () => {
               alt="jollof"
               className="max-2xl:w-[70%] max-2xl:m-auto rounded-2xl h-[700px] max-sm:h-[400px] w-full max-w-full max-lg:w-[50%] max-lg:m-auto max-md:w-[90%] max-md:m-auto bg-cover "
             />
-            <div className="my-[20px] sticky top-5 max-2xl:w-[70%] max-2xl:m-auto">
+            <div className="my-[20px] sticky top-1 max-2xl:w-[70%] max-2xl:m-auto">
               <p className="font-bold text-[40px] text-[#000000c6] w-fit">
                 Ingredients
               </p>
@@ -50,12 +50,12 @@ export const FavoriteRecipe = () => {
                     </div>
 
                     <p className="font-palanquin text-[19px] text-[#000000b5]">
-                    medium onion sliced
+                      medium onion sliced
                     </p>
                   </div>
                   <div className="mx-1">
                     <p className="w-fit px-4 font-palanquin text-[19px] text-[#000000b5]">
-                    1
+                      1
                     </p>
                   </div>
                 </div>
@@ -70,7 +70,7 @@ export const FavoriteRecipe = () => {
                     </div>
 
                     <p className="font-palanquin text-[19px] text-[#000000b5]">
-                    tablespoons tomato paste
+                      tablespoons tomato paste
                     </p>
                   </div>
                   <div className="mx-1">
@@ -90,12 +90,12 @@ export const FavoriteRecipe = () => {
                     </div>
 
                     <p className="font-palanquin text-[19px] text-[#000000b5]">
-                    large tomato sliced
+                      large tomato sliced
                     </p>
                   </div>
                   <div className="mx-1">
                     <p className="w-fit px-4 font-palanquin text-[19px] text-[#000000b5]">
-                     1
+                      1
                     </p>
                   </div>
                 </div>
@@ -110,21 +110,34 @@ export const FavoriteRecipe = () => {
                     </div>
 
                     <p className="font-palanquin text-[19px] text-[#000000b5]">
-                    cups long grain rice
+                      cups long grain rice
                     </p>
                   </div>
                   <div className="mx-1">
                     <p className="w-fit px-4 font-palanquin text-[19px] text-[#000000b5]">
-                     4
+                      4
                     </p>
                   </div>
                 </div>
+              </div>
+              <div className="my-[20px]">
+                <p className="font-bold text-[20px] font-montserrat mb-[10px]">
+                  NOTE :
+                </p>
+                <p className="font-palanquin">
+                  <span className="text-coral-red ">Fun fact: </span> Jollof
+                  rice is a popular West African dish known for its vibrant red
+                  color and delicious flavor. It has sparked friendly debates
+                  among countries in the region, with each claiming to have the
+                  best version of the dish. This has led to a playful "Jollof
+                  Wars" phenomenon, adding cultural significance to the food.
+                </p>
               </div>
             </div>
           </div>
           <div className="flex-1 flex flex-col mx-6">
             <p className="text-[68px] font-[600] leading-[75.3419px] font-montserrat">
-            Nigerian Jollof Rice
+              Nigerian Jollof Rice
             </p>
             <p className="text-[18px] my-[30px] leading-[26.9665px] px-[20px] py-[9px] border-2 border-primary rounded-full  w-fit font-montserrat ">
               Jollof

@@ -68,9 +68,7 @@ export const Instructions = () => {
 
           <p className="font-medium text-[20px] text-[#000000af] font-montserrat flex-1 leading-1">
             Season with thyme, curry powder, bouillon cubes, salt, and pepper to
-            taste. Cook for another 2 to 5 minutes.Season with thyme, curry
-            powder, bouillon cubes, salt, and pepper to taste. Cook for another
-            2 to 5 minutes.
+            taste. Cook for another 2 to 5 minutes.
           </p>
         </div>
       </div>
