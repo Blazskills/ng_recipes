@@ -1,4 +1,4 @@
-import { banana, imgs1, imgs2, imgs3, imgs4 } from "../assets/images";
+import { banana, imgs1, imgs2, imgs3, imgs4, imgs5 } from "../assets/images";
 import { Instructions } from "./Instructions";
 import { Nutrition } from "./Nutrition";
 export const FavoriteRecipe = () => {
@@ -8,7 +8,11 @@ export const FavoriteRecipe = () => {
         {/* <div className="flex justify-between gap-[80px] max-sm:flex-col-reverse max-md:flex-col-reverse max-lg:flex-col-reverse max-xl:flex-col-reverse"> */}
         <div className="flex justify-between gap-[80px] max-sm:flex-col-reverse max-md:flex-col-reverse max-lg:flex-col-reverse max-xl:flex-col-reverse">
           <div className="flex-1">
-            <img src={banana} alt="banana" className="max-2xl:w-[70%] max-2xl:m-auto rounded-2xl h-[700px] max-sm:h-[400px] w-full max-w-full max-lg:w-[50%] max-lg:m-auto max-md:w-[90%] max-md:m-auto bg-cover " />
+            <img
+              src={banana}
+              alt="banana"
+              className="max-2xl:w-[70%] max-2xl:m-auto rounded-2xl h-[700px] max-sm:h-[400px] w-full max-w-full max-lg:w-[50%] max-lg:m-auto max-md:w-[90%] max-md:m-auto bg-cover "
+            />
             <div className="my-[20px] sticky top-5 max-2xl:w-[70%] max-2xl:m-auto">
               <p className="font-bold text-[40px] text-[#000000c6] w-fit">
                 Ingredients
@@ -26,12 +30,12 @@ export const FavoriteRecipe = () => {
                     </div>
 
                     <p className="font-palanquin text-[19px] text-[#000000b5]">
-                      Rolled oats
+                      cup oil
                     </p>
                   </div>
                   <div className="mx-1">
                     <p className="w-fit px-4 font-palanquin text-[19px] text-[#000000b5]">
-                      50g
+                      1
                     </p>
                   </div>
                 </div>
@@ -46,12 +50,12 @@ export const FavoriteRecipe = () => {
                     </div>
 
                     <p className="font-palanquin text-[19px] text-[#000000b5]">
-                      Rolled oats
+                    medium onion sliced
                     </p>
                   </div>
                   <div className="mx-1">
                     <p className="w-fit px-4 font-palanquin text-[19px] text-[#000000b5]">
-                      50g
+                    1
                     </p>
                   </div>
                 </div>
@@ -66,12 +70,12 @@ export const FavoriteRecipe = () => {
                     </div>
 
                     <p className="font-palanquin text-[19px] text-[#000000b5]">
-                      Rolled oats
+                    tablespoons tomato paste
                     </p>
                   </div>
                   <div className="mx-1">
                     <p className="w-fit px-4 font-palanquin text-[19px] text-[#000000b5]">
-                      50g
+                      4
                     </p>
                   </div>
                 </div>
@@ -86,12 +90,32 @@ export const FavoriteRecipe = () => {
                     </div>
 
                     <p className="font-palanquin text-[19px] text-[#000000b5]">
-                      Rolled oats
+                    large tomato sliced
                     </p>
                   </div>
                   <div className="mx-1">
                     <p className="w-fit px-4 font-palanquin text-[19px] text-[#000000b5]">
-                      50g
+                     1
+                    </p>
+                  </div>
+                </div>
+                <div className="flex justify-between items-center">
+                  <div className="flex items-center gap-5 ">
+                    <div className=" bg-primary rounded-full w-[50px] h-[50px] flex items-center justify-center">
+                      <img
+                        src={imgs5}
+                        alt="image1"
+                        className="object-cover w-[40px] "
+                      />
+                    </div>
+
+                    <p className="font-palanquin text-[19px] text-[#000000b5]">
+                    cups long grain rice
+                    </p>
+                  </div>
+                  <div className="mx-1">
+                    <p className="w-fit px-4 font-palanquin text-[19px] text-[#000000b5]">
+                     4
                     </p>
                   </div>
                 </div>
